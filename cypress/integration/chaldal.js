@@ -167,7 +167,7 @@ describe('Chaldal Web Visit', () => {
      cy.get('.chat_launcher').click()
   })
 
-  it('VisitMeena_git ', () => {
+  it.ony('VisitMeena_git ', () => {
     cy.visit('https://www.meenaclick.com/')
      cy.get('.actions-container > :nth-child(1) > .title-container').click()
      
